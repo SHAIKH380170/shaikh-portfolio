@@ -1,0 +1,16 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  &__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    
+    border-radius: $commonBorderRadius;
+    font-weight: 600;
+    color: #777;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  }
+}
